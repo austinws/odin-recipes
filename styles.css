@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+}
+
+.mpimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 400px;
+    width: auto;
+}
+
+.hmpgintro {
+    text-align: center;
+    font-family: sans-serif;
+    color: black;
+    font-size: large;
+}
+
+.rcpblock {
+    border-style: groove;
+    border-color: green;
+    border-radius: 12px;
+}
+
+.rcp {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: large;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.rcpimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 500px;
+}
