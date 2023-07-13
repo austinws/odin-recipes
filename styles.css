@@ -1,7 +1,7 @@
-h1 {
+h1, h2, h3, h4, h5 {
     text-align: center;
     font-family: sans-serif;
-    color: black;
+    color: rgb(0, 0, 0);
 }
 
 .mpimg {
@@ -23,20 +23,25 @@ h1 {
     border-style: groove;
     border-color: green;
     border-radius: 12px;
+    margin: auto 100px;
+    /*display: block;*/
 }
 
 .rcp {
-    text-align: center;
+    border-style: double;
+    border-color: rgb(0, 73, 0);
+    border-radius: 12px;
+    display: inline-block;
+    align-self: auto;
+    /*text-align: center;*/
     font-family: sans-serif;
     font-size: large;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding: 15px 15px;
+    margin: 15px 30px;
 }
 
 .rcpimg {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    height: auto;
-    width: 500px;
+    height: 350px;
+    width: 350px;
 }
